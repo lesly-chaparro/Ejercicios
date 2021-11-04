@@ -6,8 +6,9 @@
 Lesly Chaparro*/
 
 int main(){
-    float area, radio; //Declaracion de variables
-    radio = 5; //Asignacion de valores, radio vale 5
+    float area, radio; //float: tipo de dato que le cabe una cantidad muy grande
+    printf("Introduce el radio del circulo: ");
+    scanf("%f",&radio); //%F: tipo de daot float.
     area = PI * pow(radio,2); //Operacion, radio^2
-    printf("%s%f\n\n", "Área del círculo con radio 5: ", area);
+    printf("%s%f\n\n", "Area del circulo: ",area);
 }
