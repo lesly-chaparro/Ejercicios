@@ -11,6 +11,6 @@ int main(void){
     //Operacion:
     resultado = num1 + num2;
     //Impresion del resultado:
-    printf("El resultado es: %d\n",resultado);
+    printf("El resultado de la suma de %d + %d es: %d\n",num1, num2, resultado);
     return 0;
 }
