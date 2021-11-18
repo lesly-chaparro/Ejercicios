@@ -6,7 +6,7 @@ Lesly Chaparro*/
 
 void main(){
     /*Para la variable: 
-    Tipo de dato/Identificador-/valor inicial*/
+    Tipo de dato, Identificador, valor inicial*/
     int piolin=0;
     /*Const int IVA 0.16
     Constante variable que no va a cambiar a lo largo de todo el programa*/
