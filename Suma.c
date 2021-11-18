@@ -1,4 +1,4 @@
-/*suma de dos numeros reales
+/*SUMA DE NUMEROS REALES
 Lesly Chaparro */
 
 #include <stdio.h>

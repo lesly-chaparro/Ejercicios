@@ -1,11 +1,14 @@
-/*Operadores aritmeticos
-Lesly Chaparro
+/*OPERADORES ARITMETICOS
+Lesly Chaparro*/
+
+/*
 ++ Incremento
 -- Decremento
 - Resta
 / Division
 * Multiplicacion
-% modulo */
+% modulo 
+*/
 
 #include <stdio.h>
 int main()

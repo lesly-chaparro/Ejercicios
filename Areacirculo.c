@@ -1,9 +1,9 @@
+/*Área de un círculo 
+Lesly Chaparro*/
+
 #include <stdio.h>
 #include <math.h>
 #define PI 3.1416
-
-/*Área de un círculo 
-Lesly Chaparro*/
 
 int main(void){
     float area, radio; //float: tipo de dato que le cabe una cantidad muy grande

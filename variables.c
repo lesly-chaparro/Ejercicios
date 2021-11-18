@@ -1,4 +1,5 @@
-/*Uso de variables
+/*USO DE VARIABLES
+clase 06-septiembre-2021
 Lesly Chaparro*/
 
 #include <stdio.h>

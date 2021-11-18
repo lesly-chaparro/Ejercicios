@@ -1,10 +1,12 @@
-/*Generaciones
+/*GENERACIONES
 Lesly Chaparro*/
+
 /*Generacion Z: 5-25
 Millenials: 26-40
 Generacion X: 41-55
 Baby boomers: 56-75
 Generacion del silencio: 76+*/
+
 #include <stdio.h>
 
 int main(){
