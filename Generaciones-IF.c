@@ -1,4 +1,6 @@
 /*GENERACIONES
+CON ESTRUCTURA ELSE IF
+clase 23-septiembre
 Lesly Chaparro*/
 
 /*Generacion Z: 5-25
