@@ -6,7 +6,8 @@ Lesly Chaparro*/
 #include<stdio.h>
 int main(){
     //Declaracion de variables
-    int opcion;
+    int opcion = 0;
+    char factura = ' ';
 
     //Interacción con el usuario
     printf("\nBienvenido a nuestro centro telefonico de atencion al cliente");
@@ -24,15 +25,33 @@ int main(){
         printf("\n\nPor favor espere en la linea,\nen un momento lo atendera un ejecutivo");
         break;
     case 2:
-        printf("\n\n\t\tMENU");
-        printf("\n\tA) Pago de servicio con tarjeta de débito o crédito.");
+        printf("\n\t\tREALIZAR PAGO DE FACTURA");
+        printf("\n\tA) Pago de servicio con tarjeta de debito o credito.");
         printf("\n\tB) Consulta de saldo.");
         printf("\n\tC) Hablar con uno de nuestros ejecutivos.");
         printf("\n\tD) Salir");
-        printf("Por favor escoja una opción: ");
+        printf("\n\nPor favor escoja una opcion [A-D]: ");
+        scanf("%s", &factura);
+        
+        switch (factura){
+        case 'A':
+            printf("\nPor favor ingrese su numero de tarjeta");
+            break;
+        case 'B':
+            printf("\nEl saldo de la cuenta es de $0.00 MXN");
+            break;
+        case 'C':
+            printf("\nPor faavor espere en la línea\nen un momento lo atendera un ejecutivo");
+            break;
+        case 'D':
+            printf("\nMuchas gracias por su visita al centro telefonico\nVuelva pronto.");
+            break;
+        default:
+            printf("\nPor favor inserte una opcion valida");
+        }
         break;
     case 3:
-        printf("\n\nEl saldo de tu cuenta es de $0.00 MXN");
+        printf("\n\nEl saldo de la cuenta es de $0.00 MXN");
         break;
     case 4:
         printf("\n\nMuchas gracias por su visita al centro telefonico.\nVuelva pronto.");
@@ -40,5 +59,5 @@ int main(){
     default:
         printf("\nPor favor inserte una opcion valida");
     }
-    return 0; 
+return 0;
 }
